@@ -6,14 +6,12 @@ Author: Ayman Malkawi
 
 ## Setup
 
-1. run ```pip install -r requirments.txt```
-
-2. run ```python manage.py runserver```
-
-***Or***
 run ```docker-compose -f docker-compose.yml up```
+
+## testing
+
+ run ```docker-compose run web python manage.py test```
 
 ## How to initialize/run your application
 
-go to this url after you sign in ```/api/tasks/```
-
+go to this url after you create your user and do the migrations ```/api/tasks/```
